@@ -1,0 +1,42 @@
+@media (max-width: 991.98px) {
+  .mega-menu {
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: none !important;
+  }
+  .bg-hero {
+    padding: 80px 0 0;
+  }
+  .navbar-nav .nav-link::before {
+    display: none;
+  }
+
+  .navbar-nav .nav-link.active {
+    color: var(--bs-navbar-color);
+  }
+}
+
+@media (min-width: 992px) {
+  .mega-menu {
+    left: 6% !important;
+    right: 0 !important;
+    width: auto !important;
+    max-width: none;
+    margin: 0;
+    transform: none !important;
+    border-radius: 0;
+    overflow-y: auto;
+  }
+}
+@media (max-width: 576px) {
+  .card-content {
+    padding: 20px;
+  }
+  .price {
+    font-size: 28px;
+  }
+  .info,
+  .address {
+    font-size: 16px;
+  }
+}
